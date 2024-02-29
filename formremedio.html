@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Remedio</title>
+</head>
+<body>
+    <h1>CADASTRO DE REMÉDIOS</h1>
+    <form method="post" action="cadastrorem.php">
+<p>
+<label for="nomeremed">Nome do Remédio: </label>
+<input type="text" name="nomeremed">
+</p>
+
+<p>
+<label for="data_validade">Data de validade: </label>
+<input type="date" name="data_validade">
+</p>
+
+<p>
+<label for="fabricante">Fabricante: </label>
+<input type="text" name="fabricante">
+</p>
+
+<p>
+<label for="quantidade">Quantidade: </label>
+<input type="number" name="quantidade">
+</p>
+
+<p>
+<label for="preco">Preço do remédio: </label>
+<input type="number" name="preco">
+</p>
+
+<p>
+    <label for="modo_uso">Modo de uso: </label>
+    <select name="modo_uso">
+        <option value="oral">Oral</option>   
+        <option value="aerea">Aérea</option>
+    </select>
+    </p>
+
+<br><br>
+<button type="submit">Cadastrar</button>
+
+</form>        
+</body>
+</html>
